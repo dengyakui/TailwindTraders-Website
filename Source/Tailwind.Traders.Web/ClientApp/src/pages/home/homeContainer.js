@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import Home from "./home";
 import { ProductService } from "../../services";
 
-import Powertools from "../../assets/images/home_powertools.jpg";
+import Powertools from "../../assets/images/zhuwaishuyuan.jpg";
 import Plumbing from "../../assets/images/home_plumbing.jpg";
 import Garden from "../../assets/images/home_gardencenter.jpg";
 import Electrical from "../../assets/images/home_electrical.jpg";
@@ -15,10 +15,10 @@ class HomeContainer extends Component {
         this.state = {
             recommendedProducts: [
                 {
-                    title: "Power Tools",
+                    title: "亲子活动",
                     imageUrl: Powertools,
                     cssClass: "grid__item-a",
-                    url: "/list/diytools"
+                    url: "/list/qinzihuodong"
                 },
                 {
                     title: "Plumbing",
