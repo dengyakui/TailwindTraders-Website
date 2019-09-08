@@ -113,9 +113,9 @@ class Header extends Component {
                             <Link className="main-nav__item" to="/list/diytools">
                                 {t('shared.header.diytools')}
                             </Link>
-                            <Link className="main-nav__item" to="https://chunfengyuanke8.azurewebsites.net/content/hd1.html?nsukey=qJtwmK8dGvwUDcg8qhyvpYD6U1uGxO6HGDUabLvjxfjx%2BX6dtacizZMi66Fr5YtWZ9w5JR%2BckP0j0MX5pjSnys5rX5nf65t%2BzGZj02SKxmeBgEyXHOZEZto2UQM87HglIjgWcZzxPrqO3d6SQhAy1AgKETa6YufiK%2BKRpenWglno8Ds2EoaATRJ4NeQrh9UnhGW5BdNoJTWELRS8tDqn1A%3D%3D">
+                            <a className="main-nav__item" href="https://chunfengyuanke8.azurewebsites.net/content/hd1.html?nsukey=qJtwmK8dGvwUDcg8qhyvpYD6U1uGxO6HGDUabLvjxfjx%2BX6dtacizZMi66Fr5YtWZ9w5JR%2BckP0j0MX5pjSnys5rX5nf65t%2BzGZj02SKxmeBgEyXHOZEZto2UQM87HglIjgWcZzxPrqO3d6SQhAy1AgKETa6YufiK%2BKRpenWglno8Ds2EoaATRJ4NeQrh9UnhGW5BdNoJTWELRS8tDqn1A%3D%3D">
                                 线下活动
-                            </Link>
+                            </a>
                             <div className="main-nav__actions">
                                 <Link className="main-nav__item" to="/profile">
                                     {t('shared.header.profile')}
